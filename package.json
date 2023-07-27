@@ -1,0 +1,26 @@
+
+
+{
+  "name": "edunex",
+  "version": "1.0.0",
+  "description": "Decentralized Education Credential Verification",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "node backend/app.js",
+    "start:frontend": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    
+  },
+  "devDependencies": {
+    
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

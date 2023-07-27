@@ -1,0 +1,73 @@
+/* public/style.css */
+/* This file defines the custom CSS styles for the HTML template */
+
+/* Use a custom font from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+/* Use a custom color scheme */
+:root {
+  --primary-color: #2196f3;
+  --secondary-color: #f5f5f5;
+  --text-color: #212121;
+}
+
+/* Style the body element */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+/* Style the App component */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the headings */
+h1,
+h2 {
+  color: var(--primary-color);
+}
+
+/* Style the paragraphs */
+p {
+  color: var(--text-color);
+}
+
+/* Style the forms */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the form divs */
+form div {
+  margin-bottom: 10px;
+}
+
+/* Style the form labels */
+form label {
+  display: block;
+}
+
+/* Style the form inputs */
+form input {
+  width: 100%;
+}
+
+/* Style the form buttons */
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Add hover effect to the form buttons */
+form button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

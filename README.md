@@ -13,6 +13,8 @@ EduNex is a decentralized application that combines blockchain technology with T
 - Certificate verification: Students and employers can verify the authenticity of certificates on the blockchain
 - Student registration: Students can register their profiles and credentials on the blockchain
 
+![](https://github.com/ABHIJATSARARI/TiDB_Future_App_Hackathon/blob/main/frontend/public/logo.png)
+
 # Technologies
 
 - Frontend: React.js
